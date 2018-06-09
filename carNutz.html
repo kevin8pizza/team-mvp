@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <!--Import Google Icon Font-->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--Import materialize.css-->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+      <link rel = "stylesheet" type = "text/css" href = "carnutz.css"/>
+      <link rel = "javascript" type = "text/javascript" href = "carnutz.js"/>
+
+    </head>
+
+    <body>
+        <div class="card-panel hoverable red text-white" ></div>Hoverable Card Panel</div>
+        
+
+</div>
+    
+<div class="row">
+  <form class="col s12">
+    <div class="row">
+      <div class="input-field col s3">
+        <input placeholder="Year" id="year" type="text" class="validate">
+        <label for="year"></label>
+      </div>
+      <div class="input-field col s3">
+          <input placeholder="Make" id="make" type="text" class="validate">
+          <label for="make"></label>
+        </div>
+      <div class="input-field col s3">
+          <input placeholder="Model" id="model" type="text" class="validate">
+          <label for="model"></label>
+        </div>
+      </div>
+<div class="row">
+      <a href="#!" class="btn waves-effect waves-teal" id="btn">Submit</a>
+</div>
+<div id="ytplayer"></div>
+<div class="row">
+            <img class="responsive-img" src="https://d3adfz34ynqwkr.cloudfront.net/image/upload/w_970,h_647,c_pad,b_rgb:efefef,g_center,f_jpg,q_70/rvs-images/1484887009.4838234cc62cf5c24bbe210e4308cd38.jpg" height="300px" width="300px">
+</div>
+                
+             <footer id="footer"class="page-footer card-panel teal lighten-2">
+                <div class="container">
+                  <div class="row">
+                    <div class="col l6 s12">
+                      <h5 class="white-text">MVP Content</h5>
+                      <p class="grey-text text-lighten-4">Old Dudes Old Cars</p>
+                    </div>
+                    <div class="col l4 offset-l2 s12">
+                     
+                      <ul>
+                        <li><a class="grey-text text-lighten-3" href="#!">Contact us</a></li>
+                        <li><a class="grey-text text-lighten-3" href="#!">FAQ's</a></li>
+                        <li><a class="grey-text text-lighten-3" href="#!">How it works</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                
+      
+              </footer>  
+              
+
+<script>
+  // Load the IFrame Player API code asynchronously.
+  var tag = document.createElement('script');
+  tag.src = "https://www.youtube.com/player_api";
+  var firstScriptTag = document.getElementsByTagName('script')[0];
+  firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+
+  // Replace the 'ytplayer' element with an <iframe> and
+  // YouTube player after the API code downloads.
+  var player;
+  function onYouTubePlayerAPIReady() {
+    player = new YT.Player('ytplayer', {
+      height: '200',
+      width: '400',
+      videoId: 'M7lc1UVf-VE'
+    });
+  }
+</script>
+
+      
+      <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js">
+      </script>
+      
+      
+    </body>
+  </html>

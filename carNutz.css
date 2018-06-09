@@ -1,0 +1,25 @@
+#btn {
+    margin-left: 40%;
+    margin-right: 20px;
+    width: 200px;
+    height: 75px;
+    text-align: center;
+    padding: 20px;
+    background-color: black;
+    color: white;
+} 
+#footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    height: 125px;
+    font: 60%;    
+}
+img {
+    display: block;
+    margin-left: 5%; 
+    width: 300px;
+    height: 350px;
+    margin-top: 5px;
+}
